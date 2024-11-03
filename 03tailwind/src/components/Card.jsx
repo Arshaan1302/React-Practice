@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Card = ({username}) => {
+export const Card = ({username='Default' }) => {
   return (
     <div className=" max-w-xs rounded-md shadow-md bg-black text-gray-100 m-4">
     <img
