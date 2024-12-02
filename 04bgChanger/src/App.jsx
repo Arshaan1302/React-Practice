@@ -3,11 +3,11 @@ import { useState } from "react"
 
 function App() {
  
-const [color,useColor]=useState("olive")
+const [color,setColor]=useState("olive")
 
 const changeColor=()=>{
   let colorinp = document.getElementById('colorPicker').value;
-  useColor(colorinp);
+  setColor(colorinp);
 
 }
 
